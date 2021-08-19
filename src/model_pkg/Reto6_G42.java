@@ -18,10 +18,13 @@ public class Reto6_G42 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Conexion inst_connect = new Conexion();
+    Conexion inst_connect = new Conexion();
+        DataModelDB inst_data = new DataModelDB();
         FrameHospitals inst_frame = new FrameHospitals();
         inst_connect.getConnection();
         inst_frame.setVisible(true);
+        inst_data.getOwners(1);
+
 
     }
     

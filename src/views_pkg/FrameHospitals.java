@@ -34,6 +34,9 @@ public class FrameHospitals extends javax.swing.JFrame {
         initComponents();
         setLocationRelativeTo(null);
         show_hospitals();
+        clear_rows_table();
+        show_hospitals();
+
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
     }
